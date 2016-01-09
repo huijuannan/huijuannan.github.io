@@ -11,7 +11,9 @@ updated: 2016-1-9
 ## Homebrew & cask
 
 装完Xcode就可以开始各种折腾了
+
 ### 安装
+
 - 首先安装homebrew，一下代码copy到Terminal里面，运行就可以了
 
 ```bash
@@ -52,6 +54,7 @@ brew cask install the-unarchiver && brew cask install mou && brew cask install a
   - 到[词库](http://abloz.com/huzheng/stardict-dic/zh_CN/)下载需要的词典，下载完成后拖到DictUnifier里就可以啦。
 
 ## 杂七杂八
+
 ### 通讯工具
 - QQ和微信就不多说了，微信mac版比win版好看很多。
 
@@ -62,7 +65,7 @@ brew cask install the-unarchiver && brew cask install mou && brew cask install a
 macdown myfile.md
 ```
 
-- 按照[官方的说明](http://macdown.uranusjr.com/blog/post/6/macdown-04/)，发现没有link的权限，提示`Operation not permitted`
+- 按照[官方的说明](http://macdown.uranusjr.com/blog/post/6/macdown-04/)配置，发现没有link的权限，提示`Operation not permitted`
 - 于是google以后发现，是由于System Integrity Protection这个玩意导致的，参照[这里](http://stackoverflow.com/questions/32659348/operation-not-permitted-when-on-root-el-capitan-rootless-disabled)设置以后，问题解决。
 
 ### CLI
