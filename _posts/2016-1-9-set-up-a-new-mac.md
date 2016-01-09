@@ -70,6 +70,7 @@ macdown myfile.md
 
 ### CLI
 - `tmux`和`oh-my-zsh`安装和配置参照沈浪同学的教程([tmux](https://xpgeng.gitbooks.io/omooc2py/content/guide/Tmux-Guide.html)，[oh-my-zsh](https://xpgeng.gitbooks.io/omooc2py/content/guide/Oh-my-zsh-guide.html))。
+- [fabric](http://www.fabfile.org/installing.html)
 
 ## Reference
 - [阳老的装机日志](http://www.yangzhiping.com/tech/mac3.html)
