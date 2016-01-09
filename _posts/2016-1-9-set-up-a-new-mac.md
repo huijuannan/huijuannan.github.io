@@ -14,7 +14,7 @@ updated: 2016-1-9
 
 ### 安装
 
-- 首先安装homebrew，一下代码copy到Terminal里面，运行就可以了
+- 首先安装homebrew，下面的代码copy到Terminal里面，运行就可以了
 
 ```bash
 ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
