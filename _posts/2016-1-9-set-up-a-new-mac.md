@@ -28,7 +28,7 @@ brew install brew-cask
 ```
 
 ### 大规模装机
-安装了上述两个利器之后，装机就变得so easy。按照阳老博客里面的内容，并根据自己的需要在命令行里输入一下代码
+安装了上述两个利器之后，装机就变得so easy。按照阳老博客里面的内容，并根据自己的需要在命令行里输入以下代码
 
 ```bash
 brew cask install sublime-text
@@ -48,7 +48,7 @@ brew cask install the-unarchiver && brew cask install mou && brew cask install a
 用了两天发现，mac自带的词典非常强大，取词也十分方便。
 
 - 取词
-  - 在系统偏好设置-触控板-光标与点按-查找与数据检测器，选择为`用三个手指轻点`,这样不论在什么页面，只要三指轻点就可以取词了，so easy。
+  - 在`系统偏好设置-触控板-光标与点按-查找与数据检测器`，选择为`用三个手指轻点`,这样不论在什么页面，只要三指轻点就可以取词了，so easy。
 - 下载词典
   - 下载[DictUnifier](https://github.com/jjgod/mac-dictionary-kit)，可以把tar.bz2格式下载的词典拖进去，自动转化成系统可用的词典，并且添加。
   - 到[词库](http://abloz.com/huzheng/stardict-dic/zh_CN/)下载需要的词典，下载完成后拖到DictUnifier里就可以啦。
