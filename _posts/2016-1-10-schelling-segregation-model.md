@@ -35,3 +35,10 @@ updated: 2016-1-10
 - 看到别人做一些不理性的决定，会想如果我在他的位置上，也不见得做的更好一些。
 
 人，不是只有自己的封闭的系统，我们受到别人的影响远远多于自己对自己的影响。而我们能做的，也许只是在别人的汪洋大海里，慢慢地剥离出一个自己，又亦或者，我们从来就不曾有过自己…… 
+
+## Reference
+
+- http://www.douban.com/note/333277399/
+- http://mooc.guokr.com/note/14938/
+- https://www.youtube.com/watch?v=LCsvJe3dGVk
+- http://nifty.stanford.edu/2014/mccown-schelling-model-segregation/
