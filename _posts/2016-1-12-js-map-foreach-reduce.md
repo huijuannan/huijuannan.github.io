@@ -1,4 +1,3 @@
-
 ---
 title: JS里的Array方法之forEach map reduce
 updated: 2016-1-12
