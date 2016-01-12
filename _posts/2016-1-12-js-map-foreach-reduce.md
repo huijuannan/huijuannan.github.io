@@ -13,9 +13,9 @@ updated: 2016-1-12
 
 ```javascript
 var myCat = [
-			{name:'Marnie', color:'white and yellow', sex:'f', weightInKg:3},
-			{name:'Gollum', color:'black', sex:'m', weightInKg: 4.2}
-			];
+	{name:'Marnie', color:'white and yellow', sex:'f', weightInKg:3},
+	{name:'Gollum', color:'black', sex:'m', weightInKg: 4.2}
+];
 ```
 
 在这个数组里面，每一个元素都是一个Object，其中包含了猫咪的名字、颜色和性别。
@@ -26,7 +26,7 @@ var myCat = [
 
 ```javascript
 var cat = {Marnie:{name:'Marnie', color:'white and yellow', sex:'f', weightInKg:3},
-			Gollum:{name:'Gollum', color:'black', sex:'m', weightInKg: 4.2}};
+	Gollum:{name:'Gollum', color:'black', sex:'m', weightInKg: 4.2}};
 ```
 
 为了达成这个目标，我们要做的就是，对于`myCat`数组里的每一个元素，我们把其中的`name`作为我们新的Object——`cat`的key，而把这个元素整体作为对应的value。可以看到，这里面包含了一个这样的过程，就是对数组里面的每一个元素执行一系列操作，这时候，我们就可以用到`forEach`这个方法。
@@ -34,8 +34,8 @@ var cat = {Marnie:{name:'Marnie', color:'white and yellow', sex:'f', weightInKg:
 ```javascript
 var cat = {};
 myCat.forEach(function(a){
-				cat[a.name] = a;
-				})
+	cat[a.name] = a;
+})
 ```
 
 换句话说，array.forEach(fun1)的意思是说，对array里面的每一个元素，都进行fun1这个操作。fun1函数的输入变量，就是array里的一个元素。相当于一个for循环，每次向fun1里输入array的一个元素。
@@ -46,7 +46,7 @@ myCat.forEach(function(a){
 
 ```
 var catName = myCat.map(function(a){
-							return a.name;});
+	return a.name;});
 ```
 
 抽象出来，map做的事情就是：
@@ -62,7 +62,7 @@ var catName = myCat.map(function(a){
 
 ```
 var meanWeight = myCat.reduce(function(a,b){
-				return a.weightInKg +b.weightInKg;})/myCat.length;
+	return a.weightInKg +b.weightInKg;})/myCat.length;
 ```
 
 `reduce`的意思是，把这个数组通过一定的操作汇总成一个值，比如在上面的操作里面，就是把猫咪的体重都加起来，求一个sum。但这个操作不是一次性完成的，而是用循环的方法俩俩进行的。具体说来就是（假设我们有很多只猫咪）：
