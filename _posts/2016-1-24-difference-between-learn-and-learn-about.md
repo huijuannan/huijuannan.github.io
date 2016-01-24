@@ -22,3 +22,7 @@ google了一下发现，区别还是很大的。
 >To learn about something is to become aware that it exists and to know something of its history and/or its uses or other characteristics; to learn something is to actually acquire the ability to something.
 
 同样地，`learn about`是了解某件事情的历史或者它的用处以及其他一些属性。而`learn`就是真的掌握一件事。
+
+## Reference
+- http://www.english.com.tw/modules/newbb/viewtopic.php?post_id=26412
+- http://www.usingenglish.com/forum/threads/123689-learn-vs-learn-about
