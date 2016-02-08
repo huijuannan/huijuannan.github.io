@@ -59,3 +59,13 @@ updated: 2016-2-8
 
 ## 零宽断言
 
+## ref
+- [Eloquent JavaScript](http://eloquentjavascript.net/09_regexp.html)
+- JavaScript 权威指南
+- [正则表达式可视化工具](https://jex.im/regulex/#!embed=false&flags=&re=)
+- [regular expressions在线匹配工具](https://regex101.com/)
+- [正则表达式30分钟入门教程](http://deerchao.net/tutorials/regex/regex.htm)
+- [正则表达式之：零宽断言不『消费』](http://fxck.it/post/50558232873)
+- [教你怎么理解正则表达式之零宽断言（环视）](http://blog.csdn.net/binjly/article/details/12152235)
+- [Node.js 包教不包会 —— 正则表达式](https://github.com/alsotang/node-lessons/tree/master/lesson9)
+
